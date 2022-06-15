@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" link href="./styles.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+ <style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&family=Comfortaa&family=Josefin+Sans:ital,wght@1,300&display=swap');
+</style>
+</head>
+  <body class="text-light">
+    <div class="container-fluid">
+      <div class="card bg-dark">
+        <div class="card-body">
+         <h1> Temperature Converter</h1>
+         <label>Fahrenheit</label>
+         <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+         </p>
+         <p>Celcius: <span id="outputCelcius"></span></p>
+         <label>Celcius</label>
+         <input id="inputCelcius" type="number" placeholder="Celcius" oninput="temperatureConverter2(this.value)" onchange="temperatureConverter2(this.value)">
+         </p>
+         <p>Farenheit: <span id="outputFarenheit"></span></p>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="scripts.js"></script>
+  </body>
+</html>

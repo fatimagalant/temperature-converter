@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(rgba(43, 43, 43, 0.329), rgba(43, 43, 43, 0.336)),
+    url(./assets/images/temp\ converter.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+}
+.card {
+  border-radius: 92px;
+  background: #e0e0e0;
+  box-shadow: 6px 6px 23px #474747, -3px -3px 23px #525252;
+}
+.container-fluid {
+  padding-top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+label {
+  font-family: "Comfortaa", cursive;
+}
+
+p {
+  font-family: "Archivo", sans-serif;
+}
